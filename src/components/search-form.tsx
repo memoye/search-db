@@ -5,7 +5,7 @@ const SearchForm = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <label htmlFor="search">Search Books</label>
+      <h2>Search books</h2>
       <input
         onChange={(e) => searchFor(e.target.value)}
         name="search"
